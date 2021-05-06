@@ -1,7 +1,7 @@
 <template lang="pug">
 .root
     .header
-       .title 协同平台
+       .title HEHE
     .main
         .loginbox
             .title 欢迎登录

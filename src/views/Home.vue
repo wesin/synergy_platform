@@ -1,7 +1,7 @@
 <template lang="pug">
   el-container
     el-header 
-      .title 协同平台
+      .title HEHE
     el-container
       el-aside(width="200px") 
         el-menu( :default-openeds="['1', '3']")
@@ -43,6 +43,7 @@ export default {
 
 <style lang="scss" scoped>
   .el-header, .el-footer {
+    padding: 0px;
     position: relative;
     text-align: center;
 
@@ -71,7 +72,11 @@ export default {
     line-height: 160px;
   }
 
-    body > .el-container {
+  body {
+    padding: 0px;
+  }
+
+  body > .el-container {
     margin-bottom: 40px;
   }
   
